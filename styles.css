@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#items-sold h2 {
+    color: limegreen;
+}
+
+#items-bought h2 {
+    color: blue;
+}
+
+#to-sell h2 {
+    color: red;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    width: 100vw;
+    height: 100px;
+}
+
+#numbers {
+    display: flex;
+}
+
+article {
+   margin: 50px;
+}
